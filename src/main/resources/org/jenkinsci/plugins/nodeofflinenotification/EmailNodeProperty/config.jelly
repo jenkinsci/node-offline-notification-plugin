@@ -1,0 +1,9 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+    <f:block>
+        <f:entry title="Node offline email notification" field="email"
+                 description="White space separated emails to notify if this node goes offline. WARNING Windows users: To update this field you must deactivate it, save and then activate and enter new email addresses.">
+            <f:textbox />
+        </f:entry>
+    </f:block>
+</j:jelly>
